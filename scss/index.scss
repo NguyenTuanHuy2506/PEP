@@ -158,6 +158,7 @@ system-ui;
                 padding: 2.4rem;
             }
             .detail {
+                min-height: 21rem;
                 border: 1px solid #2E2E2E;
                 padding: 2.5rem;
                 .cap {
@@ -580,14 +581,28 @@ system-ui;
 .google-map {
     background-color: #000;
     padding-top: 5rem;
-    figure {
-        figcaption {
-            color: #fff;
-            text-align: center;
-            font-size: 2.8rem;
-            padding-top: 5.2rem;
-            padding-bottom: 4.5rem;
-        }
+    // figure {
+    //     figcaption {
+    //         color: #fff;
+    //         text-align: center;
+    //         font-size: 2.8rem;
+    //         padding-top: 5.2rem;
+    //         padding-bottom: 4.5rem;
+    //     }
+    // }
+    iframe {
+        max-width: calc(100% - 40px);
+        margin: 0 auto;
+        display: block;
+    }
+    .google-link {
+        color: #fff;
+        text-align: center;
+        font-size: 2.8rem;
+        padding-top: 5.2rem;
+        padding-bottom: 4.5rem;
+        display: block;
+        margin: 0 auto;
     }
 }
 

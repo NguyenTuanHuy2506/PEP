@@ -705,6 +705,7 @@ figure img {
 }
 
 .work__image .content .detail {
+    min-height: 21rem;
     border: 1px solid #2E2E2E;
     padding: 2.5rem;
 }
@@ -1131,12 +1132,20 @@ figure img {
     padding-top: 5rem;
 }
 
-.google-map figure figcaption {
+.google-map iframe {
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    display: block;
+}
+
+.google-map .google-link {
     color: #fff;
     text-align: center;
     font-size: 2.8rem;
     padding-top: 5.2rem;
     padding-bottom: 4.5rem;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer-link {
