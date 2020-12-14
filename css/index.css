@@ -1097,7 +1097,7 @@ figure img {
         max-width: 100%;
     }
     .profile__detail.profile__info figure {
-        max-width: 320px;
+        max-width: 240px;
     }
     .profile__detail.profile__image {
         padding: 0;
